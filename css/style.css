@@ -128,3 +128,360 @@ button {
   height: 107.48px;
   margin-top: 30px;
 }
+
+/* =======================================================================
+*
+*
+*
+TRANSFORM IMAGE STYLES
+*
+*
+*
+=========================================================================== */
+
+.transform-image {
+  background: url("../images/mobile/image-transform.jpg") no-repeat center;
+  background-size: 100%;
+  height: 312px;
+}
+
+/* =======================================================================
+*
+*
+*
+TRANSFORM TEXT STYLES
+*
+*
+*
+=========================================================================== */
+
+.transform-text {
+  text-align: center;
+  padding: 64px 24px;
+}
+
+.transform-text h2 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.23px;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.transform-text p {
+  font-family: var(--barlow);
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.13px;
+  color: var(--dark-grayish-blue);
+  margin-top: 24px;
+  margin-bottom: 56px;
+}
+
+.transform-text a {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: var(--very-dark-desaturated-blue);
+  text-transform: uppercase;
+}
+
+.transform-text a::before {
+  content: "";
+  width: 137px;
+  height: 10px;
+  position: absolute;
+  background: hsla(51, 100%, 49%, 0.4);
+  border-radius: 28px;
+  z-index: -1;
+  transform: translate(-10px, 12px);
+}
+
+/* =======================================================================
+*
+*
+*
+STAND IMAGE STYLES
+*
+*
+*
+=========================================================================== */
+
+.stand-image {
+  background: url("../images/mobile/image-stand-out.jpg") no-repeat center;
+  background-size: 100%;
+  height: 312px;
+}
+
+/* =======================================================================
+*
+*
+*
+STAND TEXT STYLES
+*
+*
+*
+========================================================================== */
+
+.stand-text {
+  text-align: center;
+  padding: 64px 24px;
+}
+
+.stand-text h2 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.23px;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.stand-text p {
+  font-family: var(--barlow);
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.13px;
+  color: var(--dark-grayish-blue);
+  margin-top: 24px;
+  margin-bottom: 56px;
+}
+
+.stand-text a {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: var(--very-dark-desaturated-blue);
+  text-transform: uppercase;
+}
+
+.stand-text a::before {
+  content: "";
+  width: 137px;
+  height: 10px;
+  position: absolute;
+  background: hsla(51, 100%, 49%, 0.4);
+  border-radius: 28px;
+  z-index: -1;
+  transform: translate(-10px, 12px);
+}
+
+/* =======================================================================
+*
+*
+*
+DESIGN STYLES
+*
+*
+*
+========================================================================== */
+
+.design {
+  background: url("../images/mobile/image-graphic-design.jpg") no-repeat center;
+  background-size: 100%;
+  height: 600px;
+  text-align: center;
+  display: flex;
+}
+
+/* design text */
+.design-text {
+  align-self: flex-end;
+  padding: 64px 24px;
+}
+
+.design-text h3 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.2px;
+  color: var(--dark-desaturated-cyan);
+  margin-bottom: 24px;
+}
+
+.design-text p {
+  font-family: var(--barlow);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.11px;
+  color: var(--dark-desaturated-cyan);
+}
+
+/* =======================================================================
+*
+*
+*
+PHOTOGRAPHY STYLES
+*
+*
+*
+========================================================================== */
+
+.photography {
+  background: url("../images/mobile/image-photography.jpg") no-repeat center;
+  background-size: 100%;
+  height: 600px;
+  text-align: center;
+  display: flex;
+}
+
+/* photography text */
+
+.photography-text {
+  align-self: flex-end;
+  padding: 64px 24px;
+}
+
+.photography-text h3 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.2px;
+  color: var(--very-dark-desaturated-blue);
+  margin-bottom: 24px;
+}
+
+.photography-text p {
+  font-family: var(--barlow);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.11px;
+  color: var(--dark-blue);
+}
+
+/* =======================================================================
+*
+*
+*
+TESTEMONIAL STYLES
+*
+*
+*
+========================================================================== */
+
+.testemonial {
+  text-align: center;
+  padding: 64px 24px;
+}
+
+.testemonial h4 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 100%;
+  letter-spacing: 4px;
+  color: var(--grayish-blue);
+  margin-bottom: 64px;
+}
+
+/* clients */
+
+.client-image img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.clients p {
+  font-family: var(--barlow);
+  line-height: 32px;
+  letter-spacing: -0.13px;
+  color: var(--very-dark-grayish-blue);
+  margin-bottom: 24px;
+}
+
+.clients .name {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  line-height: 100%;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.clients .job {
+  font-family: var(--barlow);
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -0.1px;
+  color: var(--grayish-blue);
+  margin-bottom: 64px;
+}
+
+/* =======================================================================
+*
+*
+*
+FOOTER STYLES
+*
+*
+*
+========================================================================== */
+
+.footer {
+  background: var(--dark-moderate-cyan);
+  height: 725px;
+}
+
+/* foot-images */
+.foot-images {
+  height: 375px;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.mobile img {
+  width: 100%;
+  height: auto;
+}
+
+/* foot links */
+
+.foot-links {
+  padding: 86px 39px;
+  text-align: center;
+}
+
+.foot-logo img {
+  width: 170px;
+  height: 33px;
+  margin-bottom: 40px;
+}
+
+.foot-nav {
+  margin-bottom: 88px;
+  font-family: var(--barlow);
+  line-height: 25px;
+  letter-spacing: -0.13px;
+  color: var(--dark-desaturated-cyan);
+}
+
+.foot-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-icons ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: var(--dark-desaturated-cyan);
+  font-size: 22px;
+}
